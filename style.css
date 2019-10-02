@@ -33,11 +33,11 @@ body {
     text-decoration: none;
     display: block;
     padding: 1em;
+    transition: 0.5s ease-in-out;
 }
 
 #navbar ul li a:hover {
     background-color: #660e0e;
-    transition: 0.5s ease-in-out;
     font-size: 1.05em;
 }
 
