@@ -33,7 +33,7 @@ body {
     text-decoration: none;
     display: block;
     padding: 1em;
-    transition: 0.5s ease-in-out;
+    transition: all 0.5s ease-out;
 }
 
 #navbar ul li a:hover {
@@ -95,15 +95,16 @@ h2 {
     transition: 0.5s ease-in-out;
 }
 
-.row1:hover {
-    
-    width: 32rem;
-    height: 22rem;
+
+.row1:hover img {
+    width: 50%;
 }
 
 .row1 img {
-    width: 40vw;
+    vertical-align: middle;
+    width: 45%;
     height: 80%;
+    transition: all 0.5s ease-out;
 }
 
 .row1 a {
@@ -111,8 +112,7 @@ h2 {
 }
 
 .row1:hover .code {
-    color: rgb(0, 0, 0);
-    transition: all 0.5s ease-out;
+    color: rgb(143, 136, 136);
     display: initial;
 }
 
@@ -131,6 +131,7 @@ h2 {
 
 .code {
     display: none;
+    transition: all 0.5s ease-out;
 }
 
 #social {
