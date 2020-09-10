@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;  
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     line-height: 1.4;
     font-size: 1.5em;
@@ -33,13 +33,12 @@ body {
     color: rgb(255, 255, 255);
     text-decoration: none;
     display: block;
-    padding: 1em;
+    padding: 0.7em;
     transition: all 0.5s ease-out;
 }
 
 #navbar ul li a:hover {
     background-color: #660e0e;
-    font-size: 1.05em;
 }
 
 #welcome-section {
@@ -51,13 +50,13 @@ body {
     align-items: center;
     background-color: black;
     color: white;
-    background-image: linear-gradient(100deg , #464646 , #000000)
+    background-image: linear-gradient(100deg, #464646, #000000);
 }
 
 h1 {
     font-size: 3.5rem;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 #welcome-section p {
@@ -68,14 +67,16 @@ h1 {
 }
 
 h2 {
-    padding: 30px;
-    text-decoration: underline;
+    margin: 0 auto 3rem auto;
+    padding-top: 5rem;
+    max-width: 640px;
+    border-bottom: 0.2rem solid #f0f0f0;
 }
 
 #projects {
     width: 100%;
     text-align: center;
-    background-color: #bb1010;
+    background-color: #45567d;
     color: rgb(255, 255, 255);
 }
 
@@ -88,17 +89,16 @@ h2 {
 }
 
 .row1 {
-    width:30rem;
+    width: 25rem;
     height: 20rem;
     margin: 40px;
-    border-radius: 40px;
-    background-color: rgb(189, 133, 133);
-    transition: 0.5s ease-in-out;
+    /* border-radius: 40px; */
+    /* background-color: #d7ccc8; */
+    background-color: #c2c2d6;
 }
 
-
 .row1:hover img {
-    width: 50%;
+    width: 47%;
 }
 
 .row1 img {
@@ -112,9 +112,8 @@ h2 {
     text-decoration: none;
 }
 
-.row1:hover .code {
+.code {
     color: rgb(143, 136, 136);
-    display: initial;
 }
 
 .project-tile {
@@ -124,15 +123,10 @@ h2 {
 .project-title {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    background-color: #000000;
+    background-color: #303841;
     padding: 20px;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-}
-
-.code {
-    display: none;
-    transition: all 0.5s ease-out;
+    /* border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px; */
 }
 
 #social {
@@ -151,12 +145,15 @@ h2 {
 #social a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    transition: 0.5s ease-in-out;
     margin: 10px;
 }
 
-#social a:hover {
-    font-size: 1.1em;
+#social a:hover .fab {
+    opacity: 1;
+}
+
+.fab {
+    opacity: 0.7;
 }
 
 #social-links {
